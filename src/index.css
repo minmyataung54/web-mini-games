@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-with-border {
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Gabarito';
+  /* Text Shadow Property */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+
+}
+
+@font-face {
+  font-family: "gabarito";
+  src: url("../public/assets/Gabarito/Gabarito-VariableFont_wght.ttf");
+}
+
+.bg_base{
+  z-index: -1;
+}
